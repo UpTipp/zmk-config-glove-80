@@ -104,7 +104,7 @@
 &kp EQUAL   &kp N1           &kp N2     &kp N3     &kp N4   &kp N5                                                                                                    &kp N6  &kp N7    &kp N8     &kp N9   &kp N0     &kp MINUS
 &kp HOME    &kp Q            &kp W      &kp E      &kp R    &kp T                                                                                                     &kp Y   &kp U     &kp I      &kp O    &kp P      &kp BSLH
 &kp END     &kp A            &kp S      &kp D      &kp F    &kp G                                                                                                     &kp H   &kp J     &kp K      &kp L    &kp SEMI   &kp SQT
-&kp GRAVE   &kp Z            &kp X      &kp C      &kp V    &kp B   &layer_td_up  &kp LEFT_COMMAND  &kp LEFT_CONTROL  &kp RIGHT_CONTROL  &kp ESC        &layer_td_lw  &kp N   &kp M     &kp COMMA  &kp DOT  &kp FSLH   &kp LEFT_BRACKET
+&kp GRAVE   &kp Z            &kp X      &kp C      &kp V    &kp B   &layer_td_lw  &kp LEFT_COMMAND  &kp LEFT_CONTROL  &kp RIGHT_CONTROL  &kp ESC        &layer_td_up  &kp N   &kp M     &kp COMMA  &kp DOT  &kp FSLH   &kp LEFT_BRACKET
 &magic 3 0  &kp RIGHT_SHIFT  &kp PG_UP  &kp PG_DN  &kp TAB          &kp SPACE     &kp LEFT_SHIFT    &kp LEFT_ALT      &kp RALT           &kp BACKSPACE  &kp ENTER             &kp LEFT  &kp DOWN   &kp UP   &kp RIGHT  &kp RIGHT_BRACKET
             >;
         };
@@ -115,19 +115,19 @@
 &none         &none            &none            &none            &none            &none                                                            &none            &none            &none            &none            &none            &kp PSCRN
 &trans        &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &kp KP_NUMBER_4  &kp KP_NUMBER_5                                                  &kp KP_NUMBER_6  &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9  &kp KP_NUMBER_0  &kp SLCK
 &trans        &none            &none            &none            &none            &none                                                            &kp LEFT         &kp DOWN         &kp UP           &kp RIGHT        &none            &none
-&trans        &none            &none            &none            &none            &none            &trans  &trans  &trans  &trans  &to 0   &trans  &none            &none            &none            &none            &none            &none
+&trans        &none            &none            &none            &none            &none            &to 0   &trans  &trans  &trans  &trans  &trans  &none            &none            &none            &none            &none            &none
 &trans        &none            &none            &none            &trans                            &trans  &trans  &trans  &trans  &trans  &trans                   &none            &none            &none            &none            &none
             >;
         };
 
         upper_layer {
             bindings = <
-&trans  &trans  &trans  &trans  &trans                                                                  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans                                                  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans                                                  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans                                                  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans          &trans  &trans  &trans  &trans  &trans  &trans          &trans  &trans  &trans  &trans  &trans
+&trans  &trans           &trans       &trans     &trans                                                                                   &trans         &trans     &trans                &trans                 &trans
+&trans  &trans           &trans       &trans     &trans      &trans                                                       &trans          &trans         &trans     &trans                &trans                 &trans
+&trans  &kp EXCLAMATION  &kp AT_SIGN  &kp POUND  &kp DOLLAR  &kp PERCENT                                                  &kp CARET       &kp AMPERSAND  &kp ASTRK  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &trans
+&trans  &trans           &trans       &trans     &trans      &trans                                                       &kp KP_MINUS    &kp KP_EQUAL   &kp BSLH   &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp GRAVE
+&trans  &trans           &trans       &trans     &trans      &trans       &trans  &trans  &trans  &trans  &trans  &to 0   &kp UNDERSCORE  &kp KP_PLUS    &kp PIPE   &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp TILDE
+&trans  &trans           &trans       &trans     &trans                   &trans  &trans  &trans  &trans  &trans  &trans                  &trans         &trans     &trans                &trans                 &trans
             >;
         };
 
